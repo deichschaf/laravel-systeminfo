@@ -1,0 +1,25 @@
+{
+	"name": "deichschaf/laravel-systeminfo",
+	"description": "Show Webserver and Laravelversion",
+	"type" : "laravel-library",
+	"authors": [
+		{
+			"name" : "Jörg-Marten Hoffmann",
+			"email" : "git@j-mh.de",
+			"role" : "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "4.2.*"
+	},
+	"autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+		"psr-0": {
+			"Ek24\\Mandant\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
