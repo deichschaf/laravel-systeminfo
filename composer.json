@@ -18,7 +18,7 @@
 			"src/migrations"
 		],
 		"psr-0": {
-			"Ek24\\Mandant\\": "src/"
+			"Deichschaf\\Laravel-Systeminfo\\": "src/"
 		}
 	},
 	"minimum-stability": "stable"
